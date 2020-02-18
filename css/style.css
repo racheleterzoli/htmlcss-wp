@@ -1,0 +1,72 @@
+
+.contenitore0{
+  display: inline-block;
+  clear: both;
+  background-color: grey;
+}
+.paragrafo1 {
+
+  position: relative;
+  	width:1000px;
+	height:100px;
+	background:orange;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.barra{
+  position: relative;
+
+background-color: red;
+width:1000px;
+height:50px;
+
+font-size: 17px;
+  font-size: 17px;
+
+margin-left: 100px;
+margin-right: 100px;
+}
+.colonna1{
+  position: relative;
+  float:left;
+  background-color: blue;
+  width:250px;
+height:1000px;
+margin-left: 100px;
+
+}
+.colonna2{
+  float:left;
+  border left:100px solid white;
+  position: relative;
+background-color: green;
+width:400px;
+height:1600px;
+margin-left: 50px;
+
+}
+.colonna3{
+  float:right;
+  border left:100px solid white;
+  position: relative;
+background-color: pink;
+width:250px;
+height:400px;
+margin-left: 50px;
+margin-right: 100px;
+}
+.testo1{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.sezione3{
+position:relative;
+background-color: purple;
+margin-top:1700px;
+margin-left: 100px;
+margin-right: 100px;
+width:1000px;
+height:300px;
+}
