@@ -2,32 +2,64 @@
 .contenitore0{
   display: inline-block;
   clear: both;
-  background-color: grey;
+  background-image: url(../immagini/sfondo.jpg);
 }
 .paragrafo1 {
-
+  background-image: url(../immagini/banner.jpg);
   position: relative;
-  	width:1000px;
-	height:100px;
-	background:orange;
+  	width:992px;
+	height:200px;
+  margin-top: 75px;
   margin-left: 100px;
   margin-right: 100px;
+  border:solid 8px white;
+}
+.elementi{
+
+  padding: 15px 20px;
+border-right:2px solid black;
+}
+h1 {
+  margin-top: 65px;
+  text-align: center;
+  color:white;
+}
+h2{
+  text-align: center;
+  color:white;
+}
+ul#tendina li{
+  display: inline;
+}
+ul {
+  list-style-type: square;
+        list-style: none;
+  margin: 5px 0px;
 
 }
-.barra{
-  position: relative;
-
-background-color: red;
-width:1000px;
-height:50px;
-
-font-size: 17px;
-  font-size: 17px;
-
-margin-left: 100px;
-margin-right: 100px;
+li{
+  padding: 0px 0px 0px 10px;
 }
+  .barra{
+
+display: block;
+
+    margin left: 50px;
+
+       line-height:2.5;
+    position: relative;
+  color:#999999;
+  background-color: #504741;
+  width:1010px;
+  height:50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  }
+
+
 .colonna1{
+background-image: url(../immagini/sfondo.jpg);
   position: relative;
   float:left;
   background-color: blue;
@@ -35,6 +67,22 @@ margin-right: 100px;
 height:1000px;
 margin-left: 100px;
 
+}
+.primo{
+  height: 300px;
+  margin-top: 25px;
+  margin-bottom:  25px  ;
+  background-color: blue;
+
+}
+.secondo{
+  height: 200px;
+  margin-bottom: 25px ;
+  background-color: blue;
+}
+.terzo{
+  height: 300px;
+  background-color: blue;
 }
 .colonna2{
   float:left;
@@ -63,10 +111,40 @@ margin-right: 100px;
 }
 .sezione3{
 position:relative;
-background-color: purple;
+background-image: url(../immagini/sfondo.jpg);
 margin-top:1700px;
 margin-left: 100px;
 margin-right: 100px;
 width:1000px;
 height:300px;
+}
+a{
+  border-left: solid 2px black;
+  text-decoration: none;
+  color: #999999;
+}
+#home{
+  border-left:none;
+}
+ol{
+  list-style: none;
+}
+#titolino{
+  color:black;
+text-align: left;
+}
+.verde{
+
+  color:green;
+  height: 30px;
+}
+
+.footer1{
+  height:200px;
+  border-bottom:1px solid grey;
+  background-color: purple;
+}
+.footer2{
+  height:100px;
+  background-color: purple;
 }
